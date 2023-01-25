@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
 # Load Key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "" # TODO
 
 # Load your API key from an environment variable or secret management service
 openai.api_key = os.getenv("OPENAI_API_KEY")
